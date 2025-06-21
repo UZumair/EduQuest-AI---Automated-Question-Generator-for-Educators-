@@ -1,0 +1,36 @@
+# Core Dependencies
+streamlit>=1.29.0
+pymupdf>=1.23.5
+pytesseract>=0.3.10
+pillow>=10.1.0
+transformers>=4.35.2
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Database & Authentication
+itsdangerous>=2.1.2
+python-dateutil>=2.8.2
+python-magic>=0.4.27
+
+# Data Processing & Visualization
+numpy>=1.26.2
+pandas>=2.1.4
+plotly>=5.18.0
+
+# Computer Vision & Image Processing
+opencv-python-headless>=4.8.1
+scikit-image>=0.22.0
+
+# Advanced NLP
+sentencepiece>=0.2.0
+tokenizers>=0.15.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.3
+
+# PDF Processing
+pdfminer.six>=20221105
+pdfplumber>=0.10.0
+
+# Optional (For GPU Support)
+cupy-cuda11x>=12.2.0  # Uncomment if using NVIDIA GPU
